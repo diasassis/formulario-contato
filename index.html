@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Formulário de contato</title>
+</head>
+
+<body>
+    <div class="form">
+        <div class="form-image">
+            <img src="imagens/team.png" alt="Team imagem">
+        </div>
+        <form action="#">
+            <div class="form-header">
+                <div class="title">
+                    <h1>Contact Us</h1>
+                </div>
+            </div>
+            <div class="input-group">
+                <div class="input-box">
+                    <label for="firstname">First Name</label>
+                    <input type="text" name="firstname" id="firstname" required>
+                </div>
+                <div class="input-box">
+                    <label for="lastname">Last Name</label>
+                    <input type="text" name="lastname" id="lastname" required>
+                </div>
+                <div class="input-box">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div class="input-box">
+                    <label for="telephone" class="input-label">Telephone</label>
+                    <input type="tel" name="telephone" id="telephone" required maxlength="12">
+                </div>
+            </div>
+            <div class="message-box">
+                <textarea name="message" id="message" rows="5" placeholder="Leave us a message!"></textarea>
+            </div>
+            <button>Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
